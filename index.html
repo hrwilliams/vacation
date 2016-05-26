@@ -14,44 +14,69 @@
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.col-sm-4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-pills pull-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About Japan</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-      <h3>Epicodus Student Project</h3>
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <a class="navbar-brand text-muted"href="#">Epicodus Student Project</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About Japan</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
     </div>
-    </header>
-    <div class="jumbotron">
-  <h1>Japanese Vacation</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae velit eros.</p>
-      <a class="btn btn-info" href="#">View Japan on a map</a>
-      <a class="btn btn-default" href="#">The History of Japan</a>
-    </p>
+    <!-- End Navbar -->
+    <div class="container">
+      
+      <div class="jumbotron">
+      <h1>Japanese Vacation</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae velit eros.</p>
+          <a class="btn btn-info" href="#">View Japan on a map</a>
+          <a class="btn btn-default" href="#">The History of Japan</a>
+        </p>
+      </div>
     </div>
 
     <div class="row">
-      <div class="4">
+      <div class="col-sm-4">
         <h2>Cum sociis natoque</h2>
         <p>Proin tincidunt vestibulum velit. Maecenas non felis congue, pharetra eros ut, laoreet ligula. Suspendisse mollis vulputate odio in molestie. In semper accumsan arcu quis suscipit. Suspendisse fermentum maximus metus, quis varius eros dictum ut. Praesent tortor ante, tempor quis vulputate dictum, viverra a urna. Fusce eget nulla suscipit, sagittis nisi eget, rutrum libero.
         </p>
-      <div class="4">
+        <div class="row">
+          <div class="col-sm-6">
+          <img class="img-responsive" src="img/fuji.jpg" alt="mount fuji" />
+          </div>
+        </div>
       </div>
+
+
+      <div class="col-sm-4">
         <h2>Cum sociis natoque</h2>
         <p>Nunc nunc leo, vulputate sed tempus eget, gravida sit amet sem. Donec vulputate ante sit amet sapien euismod posuere. Aenean tincidunt tincidunt orci sagittis bibendum. Curabitur sit amet lectus quis enim tincidunt tempor at in ligula. Suspendisse sed ante vulputate, varius lorem eget, maximus tortor. Sed sed ipsum enim. Duis non lectus venenatis, malesuada sem id, interdum augue. Morbi in lorem risus. Curabitur ultricies ante orci, eget hendrerit augue varius rutrum. Vestibulum dignissim dui eget quam pretium imperdiet. In convallis urna sit amet malesuada cursus. Duis iaculis interdum lacus eget gravida. Vestibulum ut porta sapien.
         </p>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-responsive" src="img/golden-palace.jpg" alt="golden palace" />
+          </div>
+        </div>
       </div>
-      <div class="4">
+
+      <div class="col-sm-4">
         <h3>Proin auctor diam sollicitudin</h3>
         <p>Ut ut turpis nec ligula pellentesque semper non id est. Fusce eu nisi tempus, ornare sem non, mattis mauris. Sed ac lorem ut felis hendrerit venenatis at ac ante. Nulla quis arcu a erat euismod tincidunt in quis ante. Fusce varius urna diam, ac fringilla purus vehicula eu. Duis in est vulputate, lobortis nunc a, porta sapien. Suspendisse iaculis mi vitae mi dictum gravida. Cras ultricies justo id purus vehicula, a aliquam neque porta. Nulla ac dapibus mi, eu blandit tortor. Mauris dolor dolor, rhoncus eget arcu quis, auctor dictum lectus. Curabitur dolor erat, finibus vel tincidunt ac, malesuada at lacus.
         </p>
+
+        <div class="row">
+          <div class="col-sm-6">
+          <img class="img-responsive" src="img/tori.jpg" alt="tori gate" />
         </div>
+      </div>
+
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
